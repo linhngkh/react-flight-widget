@@ -11,8 +11,6 @@
 * HTML
 * CSS 
      * Styled-components
-
-
 #### Back End 
 
 * Express.js
@@ -38,7 +36,9 @@ Axios
 - Flight widget also had a CSS animation flipping effect for each flight information, I know also how to write animation CSS in Styled-Components.
 ### Demo Link 
 [Click to see](https://reactflight-widget.netlify.app)
+### Video Demo (click the video below to play)
 
+<iframe src="https://player.vimeo.com/video/808326945?h=ff8cff2766" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ### How to get the app locally
 ------
@@ -48,7 +48,7 @@ Axios
 #### Commands:
 * to run locally: ```yarn frontend && yarn backend ```
 * to create production built: ```yarn build```
-### Video Demo (click the video below to play)
+
 
 
 
