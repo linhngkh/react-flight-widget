@@ -9,6 +9,8 @@ const Container = styled.div`
 `;
 const Header = styled.header`
   padding: 10px;
+  font-weight: 700;
+  font-size: 50px;
 `;
 
 function App() {
