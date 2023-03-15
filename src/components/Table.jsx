@@ -1,11 +1,19 @@
-import React from "react";
-
 import styled from "styled-components";
+import TableHead from "./TableHead";
+import TableInfo from "./TableInfo";
 
-const Container = styled.div``;
+const FlightTable = styled.table`
+  background-color: rgb(46, 46, 46);
+  text-align: left;
+`;
 
 const Table = () => {
-  return <Container>Table</Container>;
+  return (
+    <FlightTable>
+      <TableHead />
+      <TableInfo />
+    </FlightTable>
+  );
 };
 
 export default Table;

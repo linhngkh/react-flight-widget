@@ -7,7 +7,9 @@ const Container = styled.div`
   padding: 10px;
   box-shadow: 10px 5px 5px black;
 `;
-const Header = styled.header``;
+const Header = styled.header`
+  padding: 10px;
+`;
 
 function App() {
   return (

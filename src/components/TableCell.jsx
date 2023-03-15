@@ -1,9 +1,9 @@
-import React from 'react'
+import styled from "styled-components";
 
-const TableCell = () => {
-  return (
-    <div>TableCell</div>
-  )
-}
+const DataCell = styled.td``;
 
-export default TableCell
+const TableCell = ({ word }) => {
+  return <DataCell>{word}</DataCell>;
+};
+
+export default TableCell;
