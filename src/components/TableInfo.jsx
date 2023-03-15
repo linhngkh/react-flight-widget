@@ -18,11 +18,12 @@ const TableInfo = () => {
   useEffect(() => {
     getFlights();
   }, []);
-  console.log(flights);
   return (
-      <TableBody>{flights?.map((flight, _index) => (<TableRow key={_index} flight={flight} />
-        ))}</TableBody>
-    
+    <TableBody>
+      {flights?.map((flight, _index) => (
+        <TableRow key={_index} flight={flight} />
+      ))}
+    </TableBody>
   );
 };
 
