@@ -1,5 +1,5 @@
 ## Description:
-
+-----
 ### Technologies and tools used:
 
 #### Front End
@@ -12,17 +12,20 @@
 * CSS 
      * Styled-components
 
-* Axios 
+
 #### Back End 
 
 * Express.js
+* Nodemon
 
+
+Axios 
 #### Database
 * NoSQL 
 
-             * Datastax: Astra DB based on Apache Cassandra
+    * Datastax: Astra DB based on Apache Cassandra
 
-             * Swagger UI : Documenting APIs
+     * Swagger UI : Documenting APIs
 
 #### Deploy
 * Netlify
@@ -36,4 +39,17 @@
 ### Demo Link 
 [Click to see](https://reactflight-widget.netlify.app)
 
-### Video Demo
+
+### How to get the app locally
+------
+* ```git clone https://github.com/linh-nguyenkhanh/react-flight-widget.git```
+* ```yarn || npm install```
+* register to Datastax to get key token
+#### Commands:
+* to run locally: ```yarn frontend && yarn backend ```
+* to create production built: ```yarn build```
+### Video Demo (click the video below to play)
+
+
+
+
