@@ -38,7 +38,7 @@ Axios
 [Click to see](https://reactflight-widget.netlify.app)
 ### Video Demo (click the video below to play)
 
-<iframe src="https://player.vimeo.com/video/808326945?h=ff8cff2766" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+[flight-widget.webm](https://user-images.githubusercontent.com/44481142/225345895-6ad2e4bf-ee1a-48ab-b5d8-19503deb6a65.webm)
 
 ### How to get the app locally
 ------
