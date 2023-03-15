@@ -2,30 +2,36 @@
 
 ### Technologies and tools used:
 
-
-* JavaSctipt
+#### Front End
+* JavaScript
     * React
-        * useContext
+        * useState
+        * useEffect
+        
 * HTML
 * CSS 
      * Styled-components
-     
-* Testing react Library   
 
+* Axios 
+#### Back End 
+
+* Express.js
+
+#### Database
+* NoSQL 
+            * Datastax: Astra DB based on Apache Cassandra
+            * Swagger UI : Documenting APIs
+
+#### Deploy
 * Netlify
 
 ### App functionality overview:
-- This web displays all of Helsinki Restaurants from data json file, with images, name, location, tags and so on. 
-- The app also contains 3 buttons functionally: 
+- This small project shows how I create a REST API using back-end Express.js and Node.js tools to generate APIs data, with the helps of NoSQL Datastax and Swagger UI to visually render API documentation so easily.
 
-> sorting restaurant names from A - Z 
-
-> sorting restaurant names from Z - A 
-
-> sorting restaurant names mix
+- This app also shows how I destructure {data} API and render it on each smaller components: table, tbody, thead, tr, th, and td.
                   
-- This app shows how I tested some components' functions with testing react library before users using it. 
+- Flight widget also had a CSS animation flipping effect for each flight information, I know also how to write animation CSS in Styled-Components.
 ### Demo Link 
-[Click to see](https://helsinki-restaurants.netlify.app/)
+[Click to see](https://reactflight-widget.netlify.app)
 
 ### Video Demo
