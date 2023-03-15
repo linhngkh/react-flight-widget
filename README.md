@@ -19,8 +19,8 @@
 
 #### Database
 * NoSQL 
-            * Datastax: Astra DB based on Apache Cassandra
-            * Swagger UI : Documenting APIs
+            <bold> Datastax: Astra DB based on Apache Cassandra
+            <bold> Swagger UI : Documenting APIs
 
 #### Deploy
 * Netlify
